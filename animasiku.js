@@ -1,3 +1,4 @@
+//<![CDATA[
 function maketextnumber(A) {
     for (var e = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"], t = A, n = new Array, o = 0; o <= t - 1; o++) n[o] = e[parseInt(Math.random() * e.length)], n = n, randomtextnumber = n.join("")
 }
@@ -288,3 +289,4 @@ function btnserver2() {
         e = "https://shope.ee/VTQdI6lsX" "&url=" + encodeURIComponent(e) + "&type=" + encodeURIComponent(1);
     window.location.href = e
 }
+//]]>
