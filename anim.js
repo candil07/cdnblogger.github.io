@@ -279,7 +279,7 @@ function caretoff(A) {
 
 function btnserver1() {
     var A = "namefile=" + document.getElementById("ketfilefb").innerHTML + "server=Server 1",
-        e = "https://www.candil.eu.org/p/simulation-hacking-facebook.html?file=" + Base64.encode(A),
+        e = "https://www.jkoding.xyz/p/download-file.html?file=" + Base64.encode(A),
         t = "https://shope.ee/VTQdI6lsX" + "&url=" + encodeURIComponent(e) + "&type=" + encodeURIComponent();
     window.location.href = t
 }
